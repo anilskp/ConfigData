@@ -1,10 +1,10 @@
 spring:
   data:
     cassandra:
-      keyspace:demokeyspace
-      contact-points:192.168.100.20,192.168.100.23
-      port:9042
+      keyspace: demokeyspace
+      contact-points: 192.168.100.20,192.168.100.23
+      port: 9042
   jpa:
-    show-sql:true
+    show-sql: true
 
 
