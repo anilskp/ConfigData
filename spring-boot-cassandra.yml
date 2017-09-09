@@ -3,7 +3,7 @@ spring:
     cassandra:
       keyspace-name: demokeyspace
       contact-points: 192.168.100.20,192.168.100.23
-      port: 9042
+      port: 9043
   jpa:
     show-sql: true
     
