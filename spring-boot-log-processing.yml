@@ -1,1 +1,12 @@
 
+spring:
+  data:
+    cassandra:
+      keyspace-name: demokeyspace
+      contact-points: 192.168.100.20,192.168.100.23
+      port: 9042
+  jpa:
+    show-sql: true
+    
+server:
+  port: 8090
